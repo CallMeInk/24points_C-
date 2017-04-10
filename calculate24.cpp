@@ -6,7 +6,7 @@ double record[3][3];
 int oprecord[3];
 double goalNum = 24;
 bool done = false;
-
+//abc
 
 double calculate(double op1,double op2,int op3){
 	if (op3 == 0) return op1 + op2;
