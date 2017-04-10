@@ -6,7 +6,7 @@ double record[3][3];
 int oprecord[3];
 double goalNum = 24;
 bool done = false;
-//abc
+//abc change
 
 double calculate(double op1,double op2,int op3){
 	if (op3 == 0) return op1 + op2;
@@ -590,7 +590,7 @@ void cal(int num, double work[4]){
 
 int main(){
 	while(arr[0] != 3333){
-		cout << "ÇëÊäÈëËÄ¸öÊý£¬ÒÔ¿Õ¸ñ·Ö¸ô£º";
+		cout << "è¯·è¾“å…¥å››ä¸ªæ•°ï¼Œä»¥ç©ºæ ¼åˆ†éš”ï¼š";
 		cin >> arr[0] >> arr[1] >> arr[2] >> arr[3];
 		done = false;
 		cal(4,arr);
